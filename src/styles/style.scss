@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+$black: #0E0E0E;
+$orange: #fe5000;
+$white: #ffffff;
+
+.title {
+  font-size: 1.5em;
+  color: $white;
+  font-family: poppins;
+}
+
+.content  {
+  margin-bottom: 1em;
+}
+
+.card-header-title {
+  font-size: 1em;
+  color: $black;
+  font-family: poppins;
+}
+
+.navbar{
+  background-color: $black;
+}
+
+.navbar-item img {
+  max-height: 4rem;
+}
+
+.subtitle {
+  font-size: 0.8em;
+  color: $white;
+  font-family: poppins;
+}
+
+.box {
+  background-color: $black;
+}
+
+.orders-title {
+  font-size: 2em;
+  color: $black;
+}
+
+
+.page-container {
+  padding: 20px;
+  background-color: $black;
+}
+
+div.card-content {
+  margin-bottom: 10px;
+}
+
+.control {
+  margin: 10px;
+}
+
+.notification is-link {
+  margin: 0px;
+}
+
+a.button {
+  background-color: $orange;
+  color: $white;
+  border: none;
+  border-radius: 0px;
+}
+
+#orange-header {
+  background-color: $orange;
+  padding: 10px;
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+
+.main-box {
+  height: 250px;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: left;
+}
+
+
+#input-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
